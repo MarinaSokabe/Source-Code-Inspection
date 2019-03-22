@@ -4,12 +4,15 @@ import br.calebe.ticketmachine.exception.PapelMoedaInvalidaException;
 import br.calebe.ticketmachine.exception.SaldoInsuficienteException;
 import java.util.Iterator;
 
+
 /**
  *
  * @author Calebe de Paula Bianchini
+ * 
  */
 public class TicketMachine {
 
+    
     protected int valor;
     protected int saldo;
     protected int[] papelMoeda = {2, 5, 10, 20, 50, 100};
