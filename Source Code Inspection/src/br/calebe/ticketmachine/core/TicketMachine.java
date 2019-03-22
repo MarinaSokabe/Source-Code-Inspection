@@ -28,6 +28,7 @@ public class TicketMachine {
             if (papelMoeda[i] == quantia) {
                 achou = true;
             }
+            
         }
         if (!achou) {
             throw new PapelMoedaInvalidaException();
@@ -37,6 +38,7 @@ public class TicketMachine {
 
     public int getSaldo() {
         return saldo;
+        
     }
 
     public Iterator<Integer> getTroco() {
