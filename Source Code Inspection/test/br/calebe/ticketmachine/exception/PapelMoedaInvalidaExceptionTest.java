@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Luiz
+ * @author marina lavinia
  */
 public class PapelMoedaInvalidaExceptionTest {
     
